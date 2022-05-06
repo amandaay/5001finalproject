@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immunization💉</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="{% static "css/master_css.css" %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script scr="{% static "js/index.js" %}"></script>
+</head>
+<body>
+    <script src="{% static "js/index.js" %}"></script>
+    <div class="container">
+        <div class="jumbotron">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Welcome</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'sign_up' %}">Sign Up</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-1">💉Immunization Portal </h1>
+            </div>
+        </div>
+
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col">
+                            <h2 id="catchphrase">📋Is your vaccination record up to date?</h2>
+                            <figure class="text-end">
+                                <blockquote class="blockquote">
+                                  <p>An ounce of prevention is worth a pound of cure.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                  <cite title="Source Title">Benjamin Franklin</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <h5 class="sign_up_okay"><a href="{% url 'sign_up' %}">Sign Up To Keep Your Records Up To Date!</a></h5>
+                                <form id="enter_portal" action={% url 'your_portal' %} method="get">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="user@email.com" required>
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password*: </label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" required>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label for="usercheck">
+                                            <input type="checkbox" name="usercheck" value="">
+                                            Keep Me Logged In</label>
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <button type="submit" id="login" class="btn btn-primary">Submit</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="disclaimer">
+                <p>
+                    <strong>Disclaimer:</strong>
+                    This website does not serve as a medical advice.
+                </p>
+            </div>
+            <div id="more_info">
+                <p><em>For more information:</em></p>
+                <ul>
+                    <li>Please reach out to your healthcare provider.</li>
+                    <li>Please refer to the <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html">cdc</a> website.</li>
+                </ul>
+            </div>
+            <hr>
+            <div id="connect">
+                <h4>📇 Let's Connect!</h4>
+                    <a href="https://www.linkedin.com/in/amandaaay/"><img src="{% static "images/linkedin_logo.png" %}" alt="🥲linkedin logo not showing!" width="50" height="50"></a>
+                    <a href="https://github.com/amandaay"><img src="{% static "images/GitHub_logo.png" %}" alt="🥲github logo not showing!" width="50" height="50"></a>
+            </div>
+    </div>
+</body>
+</html>

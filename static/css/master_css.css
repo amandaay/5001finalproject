@@ -1,0 +1,84 @@
+h1{
+    font-size: 80px;
+    text-align: right;
+    font-style: oblique;
+}
+
+.container{
+    background-color: #FFE8D6;
+    font-family: 'Inconsolata', monospace;
+    color: #6B705C;
+}
+
+html{
+    background-color: #FFE8D6;
+    border-left: 50px solid #CB997E;
+    border-right: 50px solid #CB997E; 
+    border-bottom: 50px solid #CB997E; 
+    border-radius: 20px;
+    border-top: 0;
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    
+}
+
+.main{
+    width: 800px;
+    margin: auto;
+    font-family: 'Inconsolata', monospace;
+    background-color: #DDBEA9;
+    color: #6B705C;
+    border-radius: 20px;
+}
+
+#catchphrase{
+    text-align: left;
+    padding: 20px;
+}
+
+.sign_up_okay{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#enter_portal{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+#login{
+    text-align: center;
+    background-color: #B7B7A4;
+    border: 2px solid #A5A58D;
+    font-family: 'Inconsolata', monospace;
+    color: #FFE8D6;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.disclaimer{
+    color: #6B705C;
+    font-family: 'Inconsolata', monospace;
+}
+
+#more_info{
+    color: #6B705C;
+    font-family: 'Inconsolata', monospace;
+}
+
+#connect{
+    font-family: 'Inconsolata', monospace;
+    color: #6B705C;
+}
+
+a:visited{
+    color: #CB997E;
+}
+

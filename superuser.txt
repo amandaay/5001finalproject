@@ -1,0 +1,3 @@
+user: amandaay
+email: amandaay.aysma@gmail.com
+pw: test

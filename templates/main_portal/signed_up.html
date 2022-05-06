@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="{% static "css/signed_up.css" %}">
+    <title>Signed Up!🎉</title>
+</head>
+<body>
+    {{ signed_up_insert }}
+    <h1>Congratulations!🥳</h1>
+    <p>Thank you for signing up!</p>
+    <p>You are officially a member!🤩</p>
+    <p>Welcome aboard!</p>
+    <p>Please verify via your email and login to your portal.</p>
+    <script src={% static "js/signed_up.js" %}""></script>
+</body>
+</html>

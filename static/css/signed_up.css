@@ -1,0 +1,16 @@
+html{
+    background-color: #FFE8D6;
+    font-family: 'Inconsolata', monospace;
+    color: #6B705C;
+    text-align: center;
+    border-left: 50px solid #CB997E;
+    border-right: 50px solid #CB997E; 
+    border-bottom: 50px solid #CB997E; 
+    border-radius: 10px;
+    border-top: 0px;
+    margin: 0px;
+    padding-top: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}

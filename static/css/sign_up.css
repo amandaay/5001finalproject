@@ -1,0 +1,44 @@
+html{
+    background-color: #FFE8D6;
+    text-align: center;
+    border-left: 30px solid #CB997E;
+    border-right: 30px solid #CB997E; 
+    border-bottom: 30px solid #CB997E; 
+    border-radius: 5px;
+    margin: 0px;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0px;
+}
+
+.container{
+    background-color: #FFE8D6;
+    font-family: 'Inconsolata', monospace;
+    color: #6B705C;
+    
+}
+
+/* h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+} */
+
+
+form{
+    font-size: 1.3em;
+}
+
+#signupbtn{
+    background-color: #B7B7A4;
+    border: 3px solid #A5A58D;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    font-size: 1em;
+    font-family: 'Inconsolata', monospace;
+    color: #FFE8D6;
+    border-radius: 10px;
+    padding: 5px;
+}

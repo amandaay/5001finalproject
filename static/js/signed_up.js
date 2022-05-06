@@ -1,0 +1,1 @@
+alert("Verify via your account via your email😉")
